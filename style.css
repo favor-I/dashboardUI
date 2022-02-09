@@ -54,7 +54,7 @@
 }
 .user-details p {
     font-size: 10px;
-    color: rgba(250,248,249,255);
+    color: #7d7b7c;
 }
 /* .user-details-content {
     margin: 0em 2.5em 0em 0em;
@@ -104,7 +104,6 @@
 input {
     height: 2.3em;
     width: 13.3em;
-    border: 1.7px solid red;
     background: transparent;
 }
 /* .post-btn {
@@ -147,24 +146,25 @@ input[type="search"]::placeholder {
     height: 33px;
     width: 215px;
     border-radius: .5em;
+    border: 1px solid rgb(0,0,0);
     margin: .5em 0em 0em 0em;
     background: rgba(250,248,249,255);
-}
-.new-post-btn {
-    border-radius: .7em;
-    height: 1.8em;
-    width: 6.2em;
-    margin: .7em 0em 0em 0em;
-    background: #1a88f2;
-
 }
 .new-post-btn:hover {
     cursor: pointer;
 }
-.new-post-btn img {
+.new-post-btn {
+    border-radius: .5em;
+    height: 1.8em;
+    width: 6.3em;
+    margin: 0em .9em 0em 0em;
+    background: #1a88f2;
+}
+.new-post-btn svg {
     /* border: 1px solid red; */
     /* border-radius: 5px; */
     width: 10x; 
+    fill: rgb(255, 255, 255);
     height: 10px;
     margin: .6em 0em 0em 0.5em;
 }
@@ -177,7 +177,6 @@ input[type="search"]::placeholder {
 }
 .right-panel {
     margin: 1.5em 1em 0em 0em;
-    border: 1.7px solid red;
     float: right;
     width: 220px;
     height: 530px;
@@ -223,18 +222,19 @@ input[type="search"]::placeholder {
 .photo-num {
     margin-right: .5em;
 }
+.photo-num span {
+    margin-right: .3em;
+}
 .section-one {
     width: 600px;
     margin: 2.5em 3em 0em 3em;
 }
 .section-two {
-    border: 1.7px solid blueviolet;
     margin: 2em;
     width: 600px;
     margin: 2em 3em 0em 3em;
 }
 .s-1-heading {
-    border: 1.7px solid red;
     width: 600px;
     display: flex;
     justify-content: space-between;
@@ -257,7 +257,6 @@ input[type="search"]::placeholder {
     height: 2em;
 }
 .s-1-img-vw {
-    border: 1.7px solid red;
     width: 600px;
     display: flex;
     justify-content: center;
@@ -269,6 +268,8 @@ input[type="search"]::placeholder {
     border-radius: 1em;
     width: 120px;
     height: 150px;
+    box-shadow: 7px 7px 14px #d9d9d9,
+    -7px -7px 14px #e7e7e7;;
 }
 .section-two p {
     text-transform: capitalize;
@@ -288,19 +289,31 @@ input[type="search"]::placeholder {
     border-radius: 1em;
     width: 180px;
     height: 150px;
+    box-shadow: 7px 7px 14px #d9d9d9,
+    -7px -7px 14px #e7e7e7;;
 }
 .rp-lv4 h4 {
     font-weight: bold;
-    margin-top: 1.5em;
+    margin-top: 2em;
     font-size: 10px;
 }
 .rp-lv5 h4 {
     font-weight: bold;
-    margin-top: 1.5em;
+    margin-top: 2em;
     font-size: 10px;
 }
 .rp-lv6 h4 {
     font-weight: bold;
-    margin-top: 1.5em;
+    margin-top: 2em;
     font-size: 10px;
 }
+.rp-lv4 p {
+    font-size: 10px;
+}
+.rp-lv5 p {
+    font-size: 10px;
+}
+.rp-lv6 p {
+    font-size: 10px;
+}
+
